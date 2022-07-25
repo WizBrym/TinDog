@@ -1,0 +1,179 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3 {
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.contener-fluid {
+  padding: 7% 15%;
+}
+
+/* selections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: #FFFFFF;
+}
+/* navigation */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-nav{
+  align-items: flex-end;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem
+}
+.nav-item{
+  padding: 0 0.5rem;
+  align-items: flex-end;
+}
+.nav-link{
+  font-weight: light;
+  font-size: 1.1rem;
+}
+
+/* Download-button */
+
+.Download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .contener-fluid {
+  padding:3% 15% 7%;
+  text-align: left;
+}
+/* Title-img */
+
+.title-img{
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features Styling */
+
+#features{
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-box{
+  padding: 4.5%;
+}
+.feature-title{
+  font-size: 1.2rem;
+}
+
+/* features-icon */
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+  /* Testimonials  */
+
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-card{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+/* Footer  */
+
+#footer{
+text-align: center;
+background-color: #FFFFF;
+}
+
+.footer-logo{
+  margin:  0 2% 4%;
+  color: #ff4c68;
+}
+.dev-link{
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #ff4c68;
+}
+.dev-link:hover{
+  color: #ef8172;
+}
+
+@media (max-width: 991px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
